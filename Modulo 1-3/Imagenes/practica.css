@@ -1,0 +1,26 @@
+p{
+    color: green;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: medium;
+
+}
+h2{
+    color: red;
+    text-align: center;
+}
+h1{
+    color: blueviolet;
+    text-align: center;
+}
+ol{
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    padding: 30px;
+    margin-left: 50px;
+    margin-bottom: 50;
+}
+#imagen{
+    margin-left: 200px;
+
+}
