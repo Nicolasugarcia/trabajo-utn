@@ -1,26 +1,64 @@
-p{
+/* 
+font-family: 'Grenze', serif;
+font-family: 'IM Fell Double Pica SC', serif;
+*/
+#parrafo {
     color: green;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: medium;
-
+    width: 400px;
+    height: 100px;
+    background: #2c1f1f;
+    background: linear-gradient(162deg, #2c1f1f 40%, #289028 60%);
+    background: -webkit-linear-gradient(162deg, #2c1f1f 40%, #289028 60%);
+    background: -moz-linear-gradient(162deg, #2c1f1f 40%, #289028 60%);
+    color: white;
+    font-family: 'Grenze', serif;
 }
-h2{
+    
+h2 {
     color: red;
     text-align: center;
+    font-family: 'IM Fell Double Pica SC', serif;
+
 }
-h1{
+
+h1 {
     color: blueviolet;
     text-align: center;
+    font-family: 'IM Fell Double Pica SC', serif;
 }
-ol{
+    
+
+ol {
     width: 100px;
     height: 100px;
     background-color: aqua;
     padding: 30px;
     margin-left: 50px;
     margin-bottom: 50;
+    box-shadow: -10px -5px 5px;
+    border-radius: 15px;
 }
-#imagen{
-    margin-left: 200px;
 
+#imagen {
+    
+    text-align: center;
+}
+
+#culumnas {
+    width: 400px;
+    height: 400px;
+    margin: 20px;
+    padding: 30px;
+    background: #b41b1b;
+    background: radial-gradient(circle farthest-corner at bottom left, #b41b1b 40%, #494aea 60%);
+    background: -webkit-radial-gradient(circle farthest-corner at bottom left, #b41b1b 40%, #494aea 60%);
+    background: -moz-radial-gradient(circle farthest-corner at bottom left, #b41b1b 40%, #494aea 60%);
+    border-radius: 15px;
+    column-count: 3;
+    column-gap: 40px;
+    column-rule: 4px double #da8621;
+    color: white;
+    font-family: 'IM Fell Double Pica SC', serif;
 }
