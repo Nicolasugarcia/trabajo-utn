@@ -1,0 +1,21 @@
+.llave {
+    background-color: white;
+    border: 2px black solid;
+    height: 600px;
+    width: 600px;
+    flex-direction: column;
+    
+}
+
+.caja {
+    height: 200px;
+    width: 200px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 400px;
+    cursor: pointer;
+
+}

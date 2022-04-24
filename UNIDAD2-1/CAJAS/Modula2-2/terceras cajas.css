@@ -1,0 +1,38 @@
+.ter {
+    background-color: white;
+    border: 2px solid black;
+    width: 800px;
+    height: 100px;
+    display: inline-flex;
+    justify-content: space-between;
+}
+
+.hola {
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.hola2 {
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.hola3 {
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
