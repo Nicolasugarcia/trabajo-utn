@@ -4,7 +4,6 @@ font-family: 'IM Fell Double Pica SC', serif;
 */
 #parrafo {
     color: green;
-    font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: medium;
     width: 400px;
     height: 100px;
@@ -14,6 +13,9 @@ font-family: 'IM Fell Double Pica SC', serif;
     background: -moz-linear-gradient(162deg, #2c1f1f 40%, #289028 60%);
     color: white;
     font-family: 'Grenze', serif;
+    border-radius: 200px 200px 0px 200px;
+-webkit-border-radius: 200px 200px 0px 200px;
+-moz-border-radius: 200px 200px 0px 200px;
 }
     
 h2 {
@@ -27,6 +29,8 @@ h1 {
     color: blueviolet;
     text-align: center;
     font-family: 'IM Fell Double Pica SC', serif;
+    text-shadow: -12px -36px 4px rgba(0,0,0,1);
+    
 }
     
 
@@ -39,6 +43,7 @@ ol {
     margin-bottom: 50;
     box-shadow: -10px -5px 5px;
     border-radius: 15px;
+    
 }
 
 #imagen {
@@ -61,4 +66,5 @@ ol {
     column-rule: 4px double #da8621;
     color: white;
     font-family: 'IM Fell Double Pica SC', serif;
+   
 }
