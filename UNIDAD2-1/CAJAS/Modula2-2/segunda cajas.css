@@ -3,8 +3,9 @@
     border: 2px black solid;
     height: 600px;
     width: 600px;
+    display: flex;
+    align-items: center;
     flex-direction: row-reverse;
-    display: inline-flex;
 
 }
 
@@ -12,13 +13,10 @@
     background-color: red;
     width: 200px;
     height: 200px;
-    position: relative;
     font-size: 20px;
-    top: 200px;
     display: flex;
     justify-content: center;
     align-items: center;
-    position: relative;
     color: white;
     cursor: pointer;
 }
@@ -29,12 +27,9 @@
     font-size: 30px;
     width: 200px;
     height: 200px;
-    position: relative;
-    top: 200px;
     display: flex;
     justify-content: center;
     align-items: center;
-    position: relative;
     cursor: pointer;
 }
 
@@ -44,11 +39,8 @@
     width: 200px;
     height: 200px;
     color: white;
-    position: relative;
-    top: 200px;
     display: flex;
     justify-content: center;
     align-items: center;
-    position: relative;
     cursor: pointer;
 }

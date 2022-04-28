@@ -4,7 +4,9 @@
     height: 600px;
     width: 600px;
     flex-direction: column;
-    
+    display: flex;
+    align-items: flex-end;
+
 }
 
 .caja {
@@ -14,8 +16,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    position: relative;
-    left: 400px;
     cursor: pointer;
 
 }
