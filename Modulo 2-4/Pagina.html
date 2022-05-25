@@ -6,124 +6,192 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pagina</title>
+    <link rel="stylesheet" href="pagina.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
         integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
 </head>
 
 <body>
 
-    <head class=".container-fluid">
-        <p style="background-color: aqua;font-size: 3em;text-align: center;color: aliceblue;"> Eventos</p>
-    </head>
-    <div class="container">
-        <div class="row">
-            <div class="col-8" style="background-color: antiquewhite;">
-                <h1>Preparacion</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus quae nam repellendus sequi
-                    obcaecati sunt illo eius ipsam aliquid quidem magnam, necessitatibus saepe odit exercitationem
-                    totam recusandae modi natus velit?</p>
+    <body>
+        <header>
+            <nav class="navbar navbar-dark bg-dark">
+                <a class="navbar-brand" href="#">Magic Moments</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Nombre <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#diseños"> Ver diseños</a>
+                        </li>
+                    </ul>
+                    <form class="form-inline my-2 my-lg-0">
+                        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                    </form>
+                </div>
+            </nav>
+            </nav>
+            <div class="contenedor">
+                <p class="messi"> Magic Moments </p>
             </div>
-            <div class="text-center">
-                <img src="magic.jpg" class="rounded" alt="#Magic moments">
+        </header>
+        <hr>
+        <h1 id="diseños">Diseños</h1>
+        </nav>
+
+        <div class="card-group" style="margin: 40px;">
+            <div class="card">
+                <img src="bla.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Glitter Party</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                        additional content. This content is a little bit longer.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="ana.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Noche Magica</h5>
+                    <p class="card-text">This card has supporting text below as a natural lead-in to additional content.
+                    </p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="god.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Hallowen</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                        additional content. This card has even longer content than the first to show that equal height
+                        action.</p>
+                </div>
             </div>
         </div>
-    </div>
-    <div class="container" style="box-sizing: border box;margin: 40px;padding: 10px;">
-        <table class="table table-dark">
-            <thead style="border: 3px solid blue;">
-                <tr>
-                    <th scope="col">#</th>
-                    <th scope="col">Nombre</th>
-                    <th scope="col">Apellido</th>
-                    <th scope="col">Cantidades pedidas</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr style="border: 2px solid #5B74AC;">
-                    <th scope="row" style="border-right: 2px solid #3260CB;">1</th>
-                    <td>Mark</td>
-                    <td>Otto</td>
-                    <td>3</td>
-                </tr>
-                <tr style="border: 2px solid #5B74AC;">
-                    <th scope="row" style="border-right: 2px solid #3260CB;">2</th>
-                    <td>Jacob</td>
-                    <td>Thornton</td>
-                    <td>2</td>
-                </tr>
-                <tr style="border: 2px solid #5B74AC;">
-                    <th scope="row" style="border-right: 2px solid #3260CB;">3</th>
-                    <td>Larry</td>
-                    <td>the Bird</td>
-                    <td>5</td>
-                </tr>
-            </tbody>
-        </table>
-    </div>
-    <div class="container">
-        <div class="row">
-            <div class="card"
-                style="width: 18rem;background-color: black; color: white; padding: 10px; margin-right: 10px;">
-                <img src="magic.jpg" class="card-img-top" alt="...">
+        <div class="card-group" style="margin: 40px;">
+            <div class="card">
+                <img src="laca.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
-                    <h5 class="card-title">Casamientos</h5>
+                    <h5 class="card-title">Cumpleaños</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                        additional content. This content is a little bit longer.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="party.jpg" class="card-img-top" alt="..." style="height: 430px;">
+                <div class="card-body" style="height: 200px;">
+                    <h5 class="card-title">Fiesta</h5>
+                    <p class="card-text">This card has supporting text below as a natural lead-in to additional content.
+                    </p>
+                </div>
+            </div>
+
+        </div>
+        <hr>
+        <div class="container">
+            <div class="row">
+                <div class="col-8" style="background-color: antiquewhite;">
+                    <h1>Preparacion</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus quae nam repellendus sequi
+                        obcaecati sunt illo eius ipsam aliquid quidem magnam, necessitatibus saepe odit exercitationem
+                        totam recusandae modi natus velit?</p>
+                </div>
+                <div class="text-center">
+                    <img src="magic.jpg" class="rounded" alt="#Magic moments">
+                </div>
+            </div>
+        </div>
+        <div class="container" style="box-sizing: border box;margin: 40px;padding: 10px;">
+            <table class="table table-dark">
+                <thead style="border: 3px solid blue;">
+                    <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">Nombre</th>
+                        <th scope="col">Apellido</th>
+                        <th scope="col">Cantidades pedidas</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr style="border: 2px solid #5B74AC;">
+                        <th scope="row" style="border-right: 2px solid #3260CB;">1</th>
+                        <td>Mark</td>
+                        <td>Otto</td>
+                        <td>3</td>
+                    </tr>
+                    <tr style="border: 2px solid #5B74AC;">
+                        <th scope="row" style="border-right: 2px solid #3260CB;">2</th>
+                        <td>Jacob</td>
+                        <td>Thornton</td>
+                        <td>2</td>
+                    </tr>
+                    <tr style="border: 2px solid #5B74AC;">
+                        <th scope="row" style="border-right: 2px solid #3260CB;">3</th>
+                        <td>Larry</td>
+                        <td>the Bird</td>
+                        <td>5</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="card"
+                    style="width: 18rem;background-color: black; color: white; padding: 10px; margin-right: 10px;">
+                    <img src="magic.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Casamientos</h5>
+                        <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur doloribus
+                            non
+                            odio obcaecati sunt dolores a, illo pariatur deleniti voluptatibus, libero eius facere nisi
+                            aliquid aperiam error officiis mollitia maxime?</p>
+                        <a
+                            href="https://www.google.com/search?q=magic+moments&source=lmns&bih=627&biw=1319&client=opera-gx&hs=PWm&hl=es-419&sa=X&ved=2ahUKEwiJ5pfXyMv3AhXgOLkGHRSACZoQ_AUoAHoECAEQAA">
+                            <button type="button" class="btn btn-outline-success">ir</button></a>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;padding: 10px;margin-right: 10px;">
+                    <span class="border border-secondary">
+                        <img src="cumpleaños.jpg" class="card-img-top" alt="...">
+                        <div class="card-body" span class="border border-secondary">
+                    </span>
+                    <h5 class="card-title">Cumpleaños</h5>
                     <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur doloribus non
                         odio obcaecati sunt dolores a, illo pariatur deleniti voluptatibus, libero eius facere nisi
                         aliquid aperiam error officiis mollitia maxime?</p>
                     <a
-                        href="https://www.google.com/search?q=magic+moments&source=lmns&bih=627&biw=1319&client=opera-gx&hs=PWm&hl=es-419&sa=X&ved=2ahUKEwiJ5pfXyMv3AhXgOLkGHRSACZoQ_AUoAHoECAEQAA">
+                        href="https://www.elconfidencial.com/alma-corazon-vida/2022-02-08/nadie-asiste-a-su-fiesta-de-cumpleanos-y-termina-celebrandolo-con-los-camareros_3371712/">
+                        <button type="button" class="btn btn-outline-success">ir</button></a>
+                    </span>
+                </div>
+            </div>
+            <div class="card"
+                style="width: 18rem;background-color: black; color: white;padding: 10px;margin-right: 10px;">
+                <img src="vel.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Velorios</h5>
+                    <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur doloribus non
+                        odio obcaecati sunt dolores a, illo pariatur deleniti voluptatibus, libero eius facere nisi
+                        aliquid aperiam error officiis mollitia maxime?</p>
+                    <a
+                        href="https://www.elconfidencial.com/alma-corazon-vida/2022-02-08/nadie-asiste-a-su-fiesta-de-cumpleanos-y-termina-celebrandolo-con-los-camareros_3371712/">
                         <button type="button" class="btn btn-outline-success">ir</button></a>
                 </div>
             </div>
-            <div class="card" style="width: 18rem;padding: 10px;margin-right: 10px;">
-                <span class="border border-secondary">
-                    <img src="cumpleaños.jpg" class="card-img-top" alt="...">
-                    <div class="card-body" span class="border border-secondary">
-                </span>
-                <h5 class="card-title">Cumpleaños</h5>
-                <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur doloribus non
-                    odio obcaecati sunt dolores a, illo pariatur deleniti voluptatibus, libero eius facere nisi
-                    aliquid aperiam error officiis mollitia maxime?</p>
-                <a
-                    href="https://www.elconfidencial.com/alma-corazon-vida/2022-02-08/nadie-asiste-a-su-fiesta-de-cumpleanos-y-termina-celebrandolo-con-los-camareros_3371712/">
-                    <button type="button" class="btn btn-outline-success">ir</button></a>
-                </span>
-            </div>
         </div>
-        <div class="card" style="width: 18rem;background-color: black; color: white;padding: 10px;margin-right: 10px;">
-            <img src="vel.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-                <h5 class="card-title">Velorios</h5>
-                <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur doloribus non
-                    odio obcaecati sunt dolores a, illo pariatur deleniti voluptatibus, libero eius facere nisi
-                    aliquid aperiam error officiis mollitia maxime?</p>
-                <a
-                    href="https://www.elconfidencial.com/alma-corazon-vida/2022-02-08/nadie-asiste-a-su-fiesta-de-cumpleanos-y-termina-celebrandolo-con-los-camareros_3371712/">
-                    <button type="button" class="btn btn-outline-success">ir</button></a>
-            </div>
         </div>
-    </div>
-    </div>
-    <div class="container">
-        <div class="row">
-            <div class="col-sm">
-                One of three columns
-            </div>
-            <div class="col-sm">
-                One of three columns
-            </div>
-            <div class="col-sm">
-                One of three columns
-            </div>
-        </div>
-    </div>
 
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
-        crossorigin="anonymous"></script>
-</body>
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+            crossorigin="anonymous"></script>
+    </body>
 
 </html>

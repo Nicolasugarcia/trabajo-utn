@@ -1,0 +1,53 @@
+*{
+    margin: 0%;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    color:black;
+    background-color:white;
+}
+.contenedor{
+    background-color: white;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    font-family:  'Alfa Slab One', cursive;
+}
+.messi {
+width: 100%;
+color: transparent;
+text-align: center;
+text-transform: uppercase;
+font-size: 150px;
+font-weight: bold;
+
+background-image: url(4k.jpg);
+background-size: cover;
+background-position-y: center;
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+
+}
+hr {
+height: 25px;
+background-color: black;
+}
+h1 {
+    text-align: center;
+    font-family:  'Alfa Slab One', cursive;
+    color: #C48224;
+    font-size: 3em;
+}
+.navbar {
+    position: static;
+}
+.card{
+    padding:10px;
+    margin: 15px;
+   
+}
+.card-body{
+    border: 1px solid black;
+}
