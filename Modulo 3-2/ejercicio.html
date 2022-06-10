@@ -6,40 +6,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="ejercicio.css">
 </head>
 
 <body>
-    <h1 id="rojo"
-        style="border: 2px solid black; width: 500px;height: 500px;display: flex; justify-content: center; align-items: center;  ">
-        CUADRO 1</h1>
-    <button onclick="cambiodecolor();"
-        style="width:200px; height:100px;border-radius: 15%;position: relative;left: 600px;bottom: 300px;">Cambiar a
-        rojo</button>
-    <h1 id="azul"
-        style="border: 2px solid black; width: 500px;height: 500px;display: flex; justify-content: center; align-items: center;  ">
-        CUADRO 2</h1>
-        <button onclick="cambiodecolor2();"
-        style="width:200px; height:100px;border-radius: 15%;position: relative;left: 600px;bottom: 300px;">Cambiar a
-        rojo</button>
-    <h1 id="verde"
-        style="border: 2px solid black; width: 500px;height: 500px;display: flex; justify-content: center; align-items: center;  ">
-        CUADRO 3 </h1>
-        <button onclick="cambiodecolor3();"
-        style="width:200px; height:100px;border-radius: 15%;position: relative;left: 600px;bottom: 300px;">Cambiar a
-        rojo</button>
+    <div>
+    <button onclick="cambiodecolor" class="rojo"> rojo </button>
+    <button onclick="cambiodecolor" class="verde"> verde </button>
+    <button onclick="cambiodecolor" class="azul"> azul </button>
+    </div>
+    
     <script>
-        function cambiodecolor() {
-            var cuadros = document.getElementById("rojo");
-            cuadros.style = "background: red; color: white;border: 2px solid black; width: 500px;height: 500px;display: flex; justify-content: center; align-items: center;"
-            
-        }
-        function cambiodecolor2() {
-            var cuadros = document.getElementById("azul");
-            cuadros.style = "background: blue; color: white;border: 2px solid black; width: 500px;height: 500px;display: flex; justify-content: center; align-items: center;"
-        }
-        function cambiodecolor3() {
-            var cuadros = document.getElementById("verde");
-            cuadros.style = "background: green; color: white;border: 2px solid black; width: 500px;height: 500px;display: flex; justify-content: center; align-items: center;"
+        function cambiodecolor(cambio){
+            document.querySelector("body").style.backgroundColor = cambio;
         }
     </script>
 </body>

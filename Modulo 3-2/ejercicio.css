@@ -1,0 +1,16 @@
+button{
+    height: 300px;
+    width: 300px;
+    border: 2 solid black;
+    color: wheat;
+    margin: 50px;
+}
+.azul{
+    background-color: blue;
+}
+.rojo{
+    background-color: red;
+}
+.verde{
+    background-color: green;
+}
