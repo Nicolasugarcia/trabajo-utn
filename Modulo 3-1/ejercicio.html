@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript</title>
+</head>
+
+<body>
+    <script>
+        var edad = 17;
+        var altura = 1.76;
+        var nombre = "Nicolas";
+    </script>
+    <h1>
+        <script>document.write("Yo soy " + nombre)</script>
+    </h1>
+    <h2>
+        <script>document.write("Tengo " + edad + " años")</script>
+    </h2>
+    <h3>
+        <script>document.write("Mido " + altura + " cm")</script>
+    </h3>
+    <script>
+        var numer1;
+
+        numer1 = prompt("cantidad de metro por hacer ")
+
+        if (numer1 <= 1000) {
+            document.write("si caminas " + numer1 + " metros tenes que ir a pie")
+        }
+        else {
+            if (numer1 <= 10000) {
+                document.write("si tenes que transitar  " + numer1 + " metros tenes que ir en bicicleta");
+            } else
+                if (numer1 <= 30000) {
+                    document.write("si tenes que transitar  " + numer1 + " metros tenes que ir en colectivo");
+                } else
+                    if (numer1 <= 100000) {
+                        document.write("si tenes que transitar  " + numer1 + " metros tenes que ir en auto");
+                    } else
+                        if (numer1 > 100000) {
+                            document.write("si tenes que transitar  " + numer1 + " metros tenes que ir en avion");
+                        }
+        }
+        </script>
+        </br>
+        <script>
+        var escala = [3, 45, 254, 15, 48];
+        var mayor = 0;
+        for (var i=0; i <escala.length; i++){
+            if (escala [i]> mayor ){
+                mayor = escala[i]
+            }
+        }
+        console.log("el mayor de "+ escala +" es "+mayor)
+    </script>
+</body>
+
+</html>
