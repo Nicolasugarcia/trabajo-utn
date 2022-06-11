@@ -1,16 +1,19 @@
 button{
     height: 300px;
     width: 300px;
-    border: 2 solid black;
-    color: wheat;
+    border: 5px solid black;
+    
     margin: 50px;
 }
-.azul{
-    background-color: blue;
+.amarillo{
+    background-color: yellow;
+    color: black;
 }
 .rojo{
     background-color: red;
+    color: white;
 }
-.verde{
-    background-color: green;
+.azul{
+    background-color: blue;
+    color: white;
 }
