@@ -1,0 +1,119 @@
+body{
+    color:black;
+    background-color:white;
+}
+
+nav{
+    background-color: #404349;
+    color: white;
+}
+ nav ul{
+     list-style: none;
+     margin: 0%;
+     padding: 0%;
+     display: flex;
+     color: white;
+ }
+ nav ul li{
+     flex-grow: 2;
+ }
+ nav ul li a{
+     color: white;
+     text-decoration: none;
+     text-transform: uppercase;
+     display: block;
+     padding: 5px 10px;
+     text-align: center;
+ }
+ nav ul li a:hover{
+     background-color: rgba(0,0,0,0.25);
+ }
+ footer{
+    background-color: #404349;
+    padding: 25px;
+ }
+section{
+    float: right;
+}
+footer p{
+    margin: 0;
+    color: white;
+}
+footer a{
+    text-decoration: none;
+    color: white;
+    transition: all 1s ease;
+    padding-right: 15px;
+}
+footer a:hover{
+    color: violet;
+}
+ul li a.activo{
+    background: RGBA(0,191,102,0.83);
+}
+.holder{
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.diseñ{
+    display: flex;
+    justify-content: space-between;
+}
+
+.diseño{
+    border: 2px rgb(0, 0,0,.5) solid;
+    border-radius: 10%;
+    padding: 10px;
+    text-align: center;
+    box-sizing: border-box;
+    transition: all 0.5 ease;
+    cursor: pointer;
+    margin: 10px
+}
+
+.diseño img{
+    height: 250px;
+    width: 250px;
+    border-radius: 10%;
+}
+.diseño h5{
+ color: red;
+}
+.diseño h4{
+    text-transform: uppercase;
+}
+.diseño:hover{
+ box-shadow: 0 0.1rem 0.4rem rgb(0,0,0,0.3);
+}
+
+.bot{
+    margin-top: 25px;
+    display: flex;
+    left: 200px;
+    margin-left: 200px;
+}
+.dre{
+    border: 2px rgb(0, 0,0,.5) solid;
+    border-radius: 10%;
+    padding: 10px;
+    text-align: center;
+    box-sizing: border-box;
+    margin-left: 150px;
+    transition: all 0.5 ease;
+    cursor: pointer;
+}
+.dre img{
+    height: 250px;
+    width: 250px;
+    border-radius: 10%;
+}
+.dre h5{
+    color: red;
+}
+.dre h4{
+    text-transform: uppercase;
+}
+.dre:hover{
+    box-shadow: 0 0.1rem 0.4rem rgb(0,0,0,0.3);
+}

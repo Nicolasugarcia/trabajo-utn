@@ -1,3 +1,4 @@
+import "../styles/components/pages/Disenios.css"
 
 const Disenios = (props) => {
     return (

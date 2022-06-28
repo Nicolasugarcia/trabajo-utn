@@ -1,0 +1,37 @@
+.holder{
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.com {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 16px;
+    margin: 16px 0;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.info h4 {
+    color: red;
+    font-weight: 500;
+    font-style: italic;
+}
+
+.info p {
+    font-size: 18px;
+}
+.com img{
+    border-radius: 15px;
+    
+}
+.com:nth-child(even) {
+    flex-direction: row-reverse;
+}
+
+
+.com img {
+    height: 300px;
+    width: 250px;
+}

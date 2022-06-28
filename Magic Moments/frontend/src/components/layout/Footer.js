@@ -3,13 +3,13 @@ import React from "react";
 
 const Footer = (props) => {
     return (
+        <footer>
         <section>
-            <p><a href="">Instagram</a></p>
+            <a href="">Instagram</a>
             <a href="">WhatsApp</a>
-            <div>
-            <p>Magic Moments event company</p>
-            </div>
         </section>
+        <p>Magic Moments event company</p>
+    </footer>
     )
 }
 export default Footer;

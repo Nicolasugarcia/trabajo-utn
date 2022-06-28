@@ -1,5 +1,5 @@
 
-import {Link} from "react-router-dom";
+import {NavLink} from "react-router-dom";
 
 
 const Nav = (props) => {
@@ -7,11 +7,11 @@ const Nav = (props) => {
         <nav>
             <div>
                 <ul>
-                    <li><Link to="/">Home</Link></li>
-                    <li><Link to="/Disenios">Disenios</Link></li>
-                    <li><Link to="/Combos">Combos</Link></li>
-                    <li><Link to="/Lugare">Lugares</Link></li>
-                    <li><Link to="/Contacto">Contacto</Link></li>
+                    <li><NavLink to="/"className={({ isActive }) =>isActive ? "activo" : undefined}>Home</NavLink></li>
+                    <li><NavLink to="disenios"className={({ isActive }) =>isActive ? "activo" : undefined}>Disenios</NavLink></li>
+                    <li><NavLink to="Combos"className={({ isActive }) =>isActive ? "activo" : undefined}>Combos</NavLink></li>
+                    <li><NavLink to="Lugare"className={({ isActive }) =>isActive ? "activo" : undefined}>Lugares</NavLink></li>
+                    <li><NavLink to="Contacto"className={({ isActive }) =>isActive ? "activo" : undefined}>Contacto</NavLink></li>
 
                 </ul>
             </div>
