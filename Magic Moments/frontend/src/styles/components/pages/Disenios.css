@@ -52,8 +52,9 @@ ul li a.activo{
     background: RGBA(0,191,102,0.83);
 }
 .holder{
-    max-width: 1100px;
-    margin: 0 auto;
+    /*max-width: 100px;
+    margin: 0 auto;*/
+    overflow: hidden;
 }
 
 .diseñ{
@@ -73,8 +74,8 @@ ul li a.activo{
 }
 
 .diseño img{
-    height: 250px;
-    width: 250px;
+    height: 220px;
+    width: 220px;
     border-radius: 10%;
 }
 .diseño h5{
@@ -90,8 +91,7 @@ ul li a.activo{
 .bot{
     margin-top: 25px;
     display: flex;
-    left: 200px;
-    margin-left: 200px;
+     height: 306px;
 }
 .dre{
     border: 2px rgb(0, 0,0,.5) solid;
@@ -99,13 +99,16 @@ ul li a.activo{
     padding: 10px;
     text-align: center;
     box-sizing: border-box;
-    margin-left: 150px;
+    margin-left: 80px;
+    margin-right: 100px;
     transition: all 0.5 ease;
     cursor: pointer;
+    margin-bottom: 10px;
+    margin-top: 10px;
 }
 .dre img{
-    height: 250px;
-    width: 250px;
+    height: 220px;
+    width: 220px;
     border-radius: 10%;
 }
 .dre h5{
