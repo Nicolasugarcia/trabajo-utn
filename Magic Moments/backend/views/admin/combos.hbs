@@ -1,29 +1,28 @@
-<div class="container"  style="margin : 50px auto" >
+<div class="container"  style="margin:50px auto" >
     <div class="row">
         <div class="col">
-        <p class="text-end"> Hola {{usuario}} ! <a href="/admin/login/logout" class="btn btn-sm btn-danger ">
-                Cerrar sesión <i class=" fa fa-sign-out ">
-                </i> </a>
-        </p>
+            <p class="text-end"> Hola {{usuario}} ! 
+            <a href="/admin/login/logout" class="btn btn-sm btn-danger ">
+            Cerrar sesión <i class=" fa fa-sign-out "></i></a></p>
         </div>
     </div>
     <div class="row">
         <div class="col-7">
-            <h3> Listado de Novedades </h3>
+            <h3> Listado de combos </h3>
         </div>
-    <div class="col-2 text-right"> <a href="/admin/combos/agregar" class="btn btn-success">
-            <i class="fa fa-plus">
-            </i> Nuevo
-        </a>
+        <div class="text-end col-2"> 
+            <a href="/admin/combos/agregar" class="btn btn-success"><i class="fa fa-plus">
+            </i> Combos</a>
+        </div>
     </div>
-    </div>
+
     <div class="row">
         <div class="col">
             <table class="table">
              <thead class="thead-dark">
                 <tr>
                     <th scope="col">#</th>
-                    <th scope="col" class="text-center">Titulo</th>
+                    <th scope="col" class="text-center">Descripcion</th>
                     <th scope="col" class="text-end">Acciones</th>
                 </tr>
              </thead>
@@ -44,4 +43,4 @@
             </table>
         </div>
     </div>
-            
+</div>

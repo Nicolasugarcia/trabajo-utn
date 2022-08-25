@@ -1,16 +1,16 @@
-<div class="container" style="margin:50px auto">
+<div class="container" style="margin:50px auto;">
     <div class="row">
-        <div class="col-6 offset-3">
-            <h4>Modificar combo</h4>
+        <div class="col-6 offset-3" style="margin-top:100px;">
+            <h4 class="text-center">Modificar combo</h4>
             <form method="post" action="/admin/combos/modificar">
                 <input type="hidden" value="{{combos.id}}" name="id">
-                <div class="form-group">
+                <div class="form-group" style="margin:20px;">
                     <input type="text" placeholder="titulo" value="{{combos.titulo}}" class="form-control" name="titulo">
                 </div>
-                <div>
+                <div style="margin:20px;">
                  <textarea placeholder="descripcion" class="form-control" name="descripcion">{{combos.descripcion}}</textarea>
                 </div>
-                <button type="submit"class="btn btn-primary">Modificar</button>
+                <button type="submit"class="btn btn-primary" style="margin-left: 20px;margin-bottom: 100px;">Modificar</button>
             </form>
             {{#if error}}
             <h4>{{message}}</h4>
