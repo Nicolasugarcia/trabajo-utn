@@ -5,7 +5,7 @@ import Nav from './components/layout/Nav';
 import Footer from './components/layout/Footer';
 import Magic from "./pages/Magic";
 import Disenios from "./pages/Disenios";
-import Combos from "./pages/Combos";
+import CombosPage from "./pages/Combos";
 import Contacto from "./pages/Contacto";
 import Lugare from "./pages/Lugare";
 
@@ -20,7 +20,7 @@ function App() {
         <Routes>
           <Route path='/' element={<Magic />} />
           <Route path='disenios' element={<Disenios />} />
-          <Route path='combos' element={<Combos />} />
+          <Route path='combos' element={<CombosPage />} />
           <Route path='Lugare' element={<Lugare />} />
           <Route path='Contacto' element={<Contacto />} />
 

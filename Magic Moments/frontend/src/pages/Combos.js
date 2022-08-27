@@ -1,38 +1,34 @@
-import "../styles/components/pages/Combos.css"
-function Combos(props) {
+import { useState, useEffect } from "react";
+import axios from "axios";
+import CombosItem from "../components/layout/combos/combosItem";
+
+const CombosPage = (props) => {
+    const[loading, setLoading]=useState(false);
+    const[combos, setCombos]=useState([]);
+
+    useEffect(()=> {
+        const cargarCombos = async () => {
+            setLoading(true);
+            const response = await axios.get("http://localhost:3000/api/combos");
+            setCombos(response.data);
+            setLoading(false);
+        };
+        cargarCombos();
+    }, []);
+    
     return (
-        <main className="holder">
-            <div className="com">
-                <img src="/img/bla.jpg" alt="" />
-                <img src= "img/ana.jpg" />
-                <div className="info">
-                    <h4>1er combo</h4>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium aliquid nobis quibusdam,
-                        dolorum assumenda fugiat repudiandae, soluta temporibus nesciunt maxime expedita quaerat ducimus
-                        nisi cumque recusandae ab optio quia deserunt?</p>
-                </div>
-            </div>
-            <div className="com">
-                <div class="laca"><img src="img/4k.jpg" alt="" /></div>
-                <img src="img/party.jpg" alt="" />
-                <div className="info">
-                    <h4>2do combo</h4>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium aliquid nobis quibusdam,
-                        dolorum assumenda fugiat repudiandae, soluta temporibus nesciunt maxime expedita quaerat ducimus
-                        nisi cumque recusandae ab optio quia deserunt?</p>
-                </div>
-            </div>
-            <div className="com">
-                <img src="img/bla.jpg" alt="" />
-                <img src="img/party.jpg" alt="" />
-                <div className="info">
-                    <h4>3er combo</h4>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium aliquid nobis quibusdam,
-                        dolorum assumenda fugiat repudiandae, soluta temporibus nesciunt maxime expedita quaerat ducimus
-                        nisi cumque recusandae ab optio quia deserunt?</p>
-                </div>
-            </div>
-        </main>
+        <section className="holder">
+            <h2>Combos</h2>
+        {loading ? (
+            <p>Cargando...</p>
+        ) : (
+            combos.map(item => <CombosItem key={item.id}
+                titulo={item.titulo} imagen={item.imagen}
+                cuerpo={item.descripcion} />)
+        )}
+        </section>
     );
 }
-export default Combos;
+
+
+export default CombosPage;
