@@ -1,8 +1,11 @@
 import { useState, useEffect } from "react";
 import axios from "axios";
 import CombosItem from "../components/layout/combos/combosItem";
+import "../styles/components/pages/Combos.css"
+
 
 const CombosPage = (props) => {
+    
     const[loading, setLoading]=useState(false);
     const[combos, setCombos]=useState([]);
 
@@ -24,7 +27,7 @@ const CombosPage = (props) => {
         ) : (
             combos.map(item => <CombosItem key={item.id}
                 titulo={item.titulo} imagen={item.imagen}
-                cuerpo={item.descripcion} />)
+                body={item.descripcion} />)
         )}
         </section>
     );

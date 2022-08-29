@@ -1,7 +1,7 @@
 import React from "react";
 
 const CombosItem = (props) => {
-    const {titulo, imagen, body, } = props;
+    const { titulo, imagen, body, } = props;
     return (
         <div className="combos">
             <h3>{titulo}</h3>
@@ -10,6 +10,6 @@ const CombosItem = (props) => {
             <hr/>
         </div>
     );
-}
+};
 
 export default CombosItem;
