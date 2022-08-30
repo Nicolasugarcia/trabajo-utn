@@ -37,8 +37,9 @@
 
 .bot{
     margin-top: 25px;
+    margin-bottom: 45px;
     display: flex;
-     height: 306px;
+     height: 370px;
 }
 .dre{
     border: 2px rgb(0, 0,0,.5) solid;

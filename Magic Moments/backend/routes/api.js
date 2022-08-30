@@ -35,7 +35,7 @@ router.post("/contacto", async (req, res)=>{
         to: "nicolasgarciasam@gmail.com",
         subject: "contacto web",
         html: `${req.body.nombre} ${req.body.apellido} se conecto a traves de la web y quiero coordinar su pedido en este correo:
-        ${req.body.mail}<br> Ademas sugerio el dia ${req.body.fecha} con horario ${req.body.time}<br> Su numero de contacto es ${req.body.telefono} ` 
+        ${req.body.email}<br> Ademas sugerio el dia ${req.body.date} con horario ${req.body.time}<br> Su numero de contacto es ${req.body.telefono} ` 
     }
     const transport = nodemailer.createTransport({
         host:process.env.SMTP_HOST,
