@@ -1,12 +1,3 @@
-*{
-    margin: 0%;
-    padding: 0;
-    box-sizing: border-box;
-}
-body{
-    color:black;
-    background-color:white;
-}
 .contenedor{
     background-color: #FFEAF3;
     min-height: 100vh;
@@ -29,52 +20,4 @@ background-clip: text;
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
 
-}
-nav{
-    background-color: #404349;
-    color: white;
-}
- nav ul{
-     list-style: none;
-     margin: 0%;
-     padding: 0%;
-     display: flex;
-     color: white;
- }
- nav ul li{
-     flex-grow: 2;
- }
- nav ul li a{
-     color: white;
-     text-decoration: none;
-     text-transform: uppercase;
-     display: block;
-     padding: 5px 10px;
-     text-align: center;
- }
- nav ul li a:hover{
-     background-color: rgba(0,0,0,0.25);
- }
- footer{
-    background-color: #404349;
-    padding: 25px;
- }
-section{
-    float: right;
-}
-footer p{
-    margin: 0;
-    color: white;
-}
-footer a{
-    text-decoration: none;
-    color: white;
-    transition: all 1s ease;
-    padding-right: 15px;
-}
-footer a:hover{
-    color: violet;
-}
-ul li a.activo{
-    background: RGBA(0,191,102,0.83);
 }

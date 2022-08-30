@@ -1,7 +1,7 @@
 import"../styles/components/pages/Contacto.css"
 const Contacto = (props) =>{
     return ( 
-<main className="holder">
+<main className="holdera">
         <h2>Informacion del pedido</h2>
         <form action="method" class="contacto">
            <div class="formu">
@@ -16,18 +16,6 @@ const Contacto = (props) =>{
             </p>
             <p>
                 <input type="text" maxlength="12" placeholder="11 22444544" name="telefono" id="telefono"/>
-            </p>
-            <p>
-                <select name="pedido" id="pedido">
-                    <option value="party">Party</option>
-                    <option value="Hallowen">Hallowen</option>
-                    <option value="Glittes">Glittes</option>
-                    <option value="Party of 15">Party of 15</option>
-                    <option value="Happy Birthday">Happy Birthday</option>
-                    <option value="Combo 1">Combo 1</option>
-                    <option value="Combo 2">Combo 2</option>
-                    <option value="Combo 3">Combo 3</option>
-                </select>
             </p>
             <p>
                 <input type="date" name="date" id="date"/>

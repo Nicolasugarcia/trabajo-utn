@@ -1,3 +1,4 @@
+import "../../styles/layout.css"
 
 import React from "react";
 
