@@ -1,3 +1,15 @@
-.combos{
+.holdering{
+background-color: #FFEAF3;
+padding: 75px;
+text-align: center;
 
 }
+.combos{
+    border: 3px solid #404349;
+    border-radius: 5%;
+    margin: 10px;
+    padding: 10px;
+}
+
+
+

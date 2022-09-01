@@ -14,33 +14,33 @@ const Lugare = (props) => {
                         </tr>
                     </thead>
                         <tr >
-                            <td >Mark</td>
+                            <td >Caballito</td>
                             <td >5hr</td>
                             <td >4 Dias</td>
                         </tr>
                         <tr >
-                            <td >Jacob</td>
+                            <td >Boedo</td>
                             <td >3hr</td>
                             <td >2 Dias</td>
                         </tr>
                         <tr  >
-                            <td >Mark</td>
+                            <td >Puerto Madero</td>
                             <td >6hr</td>
                             <td >7 Dias</td>
                         </tr>
                         <tr  >
-                            <td >Jacob</td>
+                            <td >Quilmes</td>
                             <td >5hr</td>
                             <td >7 Dias</td>
                         </tr>
                         <tr  >
-                            <td >Mark</td>
+                            <td >Tigre</td>
                             <td >4hr</td>
                             <td >5 Dias</td>
                         </tr>
-                        <tr><td >Jacob</td><td >3hr</td><td >3 Dias</td></tr>
-                        <tr><td >Mark</td><td >2hr</td><td >2 Dias</td></tr>
-                        <tr><td >Jacob</td><td >1hr</td><td >1 Dia</td></tr>
+                        <tr><td >Parque Patricio</td><td >3hr</td><td >3 Dias</td></tr>
+                        <tr><td >Avellaneda</td><td >2hr</td><td >2 Dias</td></tr>
+                        <tr><td >Lanus</td><td >1hr</td><td >1 Dia</td></tr>
                 </table>
             </div>
         </main >

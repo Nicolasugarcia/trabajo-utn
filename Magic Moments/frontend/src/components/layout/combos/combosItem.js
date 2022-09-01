@@ -7,7 +7,6 @@ const CombosItem = (props) => {
             <h3>{titulo}</h3>
             <img src={imagen} />
             <div dangerouslySetInnerHTML={{ __html: body}} />
-            <hr/>
         </div>
     );
 };

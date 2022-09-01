@@ -10,8 +10,8 @@ router.get("/combos", async function (req, res, next){
   combos = combos.map(combos =>{
     if (combos.img_id){
         const imagen = cloudinary.url(combos.img_id, {
-            width:960,
-            height:200,
+            width:250,
+            height:250,
             crop: "fill"
         });
         return {
@@ -24,7 +24,7 @@ router.get("/combos", async function (req, res, next){
             imagen: ""
         }
     }
-  })
+  });
 
   res.json(combos);
 });

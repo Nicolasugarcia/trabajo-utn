@@ -2,7 +2,7 @@ import"../styles/components/pages/Magic.css"
 
 const Magic = (props) => {
     return (
-        <main className="holder">
+        <main className="holderq">
         <div class="contenedor">
         <p class="messi"> Magic Moments </p>
         </div>

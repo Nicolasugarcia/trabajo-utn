@@ -20,8 +20,8 @@ const CombosPage = (props) => {
     }, []);
     
     return (
-        <section className="holder">
-            <h2>Combos</h2>
+        <section className="holdering">
+           
         {loading ? (
             <p>Cargando...</p>
         ) : (

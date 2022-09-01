@@ -98,7 +98,7 @@ router.post("/agregar", async (req, res, next)=>{
 
 router.post("/modificar", async (req, res, next)=>{ 
 try{
-  let img_id = req.body,img_original;
+  let img_id = req.body.img_original;
   let borrar_img_vieja = false;
   if (req.body.img_delete === "1"){
     img_id = null;
@@ -106,8 +106,7 @@ try{
   } else {
     if (req.files && Object.keys(req.files).length > 0) {
       imagen = req.files.imagen;
-      img_id = (await
-      uploader(imagen.tempFilePath)).public_id;
+      img_id = (await uploader(imagen.tempFilePath)).public_id;
       borrar_img_vieja = true;
     }
   }
@@ -122,10 +121,11 @@ try{
     descripcion: req.body.descripcion,
     img_id
   }
+
   await combosModel.modificarCombosById(obj, req.body.id);
   res.redirect("/admin/combos");
-}
-catch (error){
+
+}catch (error){
   console.log(error)
   res.render("admin/modificar", {
     layout: "admin/layout",
